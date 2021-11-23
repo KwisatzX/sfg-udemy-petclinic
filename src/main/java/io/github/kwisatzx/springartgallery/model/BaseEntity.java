@@ -1,4 +1,4 @@
-package io.github.kwisatzx.springartgallery.model
+package io.github.kwisatzx.springartgallery.model;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,19 +9,19 @@ import java.io.Serializable;
 @MappedSuperclass
 public class BaseEntity implements Serializable {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
 
-	public Integer getId() {
-		return id;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public boolean isNew() {
-		return this.id == null;
-	}
+    public boolean isNew() {
+        return this.id == null;
+    }
 }
