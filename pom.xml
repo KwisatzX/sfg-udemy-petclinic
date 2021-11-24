@@ -10,12 +10,12 @@
 
     <scm>
         <connection>scm:git:https://github.com/KwisatzX/spring-art-gallery.git</connection>
-        <tag>v1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <groupId>io.github.kwisatzx</groupId>
     <artifactId>spring-art-gallery</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>Spring Art Gallery</name>
     <description>Spring Art Gallery</description>
 
