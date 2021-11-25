@@ -356,6 +356,8 @@ figcaption {
 .navigation-item {
     padding-top: 9px;
     padding-bottom: 9px;
+    padding-right: 9px;
+    padding-left: 9px;
     opacity: 0.6;
     font-size: 12px;
     line-height: 20px;
